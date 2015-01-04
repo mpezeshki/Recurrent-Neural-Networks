@@ -17,7 +17,7 @@ class LSTM(object):
         self.n_h = int(n_h)
 
         # Here we define 8 weight matrices and 4 bias vector.
-        # To determine the dimention of weight matrices and bias vectors,
+        # To determine the dimension of weight matrices and bias vectors,
         # we just need to have the following numbers: n_u, n_h
         # (You can check it using the equations).
         #
